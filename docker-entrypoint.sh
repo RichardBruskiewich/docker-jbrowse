@@ -13,4 +13,4 @@ fi
 
 mkdir -p $JBROWSE_DATA/json/
 
-nginx -g "daemon off;"
+exec nginx -g "daemon off;"
